@@ -12,7 +12,7 @@ import java.util.Map;
  * Date: 2019/3/22
  * Time: 10:10
  */
-public class MagicType extends Feature{
+public class MagicType extends Feature {
 
     private Option option;
 

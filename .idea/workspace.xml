@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b22906-3490-45eb-a937-adf6fc74f992" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/Magic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/Tool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/X.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/Y.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/MagicType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/Mark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/Restore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/SaveAsImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/series/Funnel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Option.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Toolbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Toolbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/SeriesType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/SeriesType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/Feature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/Feature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/MagicType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/MagicType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/line/LineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/line/LineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shinemo/bi/echarts/Option.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shinemo/bi/echarts/Option.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/shinemo/bi/echarts/samples/line/LineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/shinemo/bi/echarts/samples/line/LineTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/shinemo/bi/echarts/samples/line/LineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/shinemo/bi/echarts/samples/line/LineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shinemo/bi/echarts/code/SeriesType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shinemo/bi/echarts/code/SeriesType.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,8 +28,8 @@
       <file leaf-file-name="LineTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/line/LineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            <state relative-caret-position="247">
+              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,8 +40,8 @@
       <file leaf-file-name="MagicType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/MagicType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="254">
+              <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -432,7 +416,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553137434958</updated>
-      <workItem from="1553137439008" duration="20529000" />
+      <workItem from="1553137439008" duration="20779000" />
     </task>
     <task id="LOCAL-00001" summary="new code">
       <created>1553220236204</created>
@@ -441,16 +425,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553220236204</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new code">
+      <created>1553222317672</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553222317672</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PieTest_test - 2019.03.21 at 17h 19m 42s.xml">
-      <configuration name="PieTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieTest_test - 2019.03.21 at 17h 32m 32s.xml">
-      <configuration name="PieTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BarTest_test - 2019.03.21 at 17h 33m 18s.xml">
       <configuration name="BarTest.test" configurationId="JUnit" />
     </history-entry>
@@ -475,9 +460,15 @@
     <history-entry file="LineTest_test - 2019.03.22 at 10h 00m 10s.xml">
       <configuration name="LineTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LineTest_test - 2019.03.22 at 10h 37m 32s.xml">
+      <configuration name="LineTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineTest_test - 2019.03.22 at 10h 40m 30s.xml">
+      <configuration name="LineTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20529000" />
+    <option name="totallyTimeSpent" value="20779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -494,12 +485,12 @@
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Terminal" weight="0.32905984" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" sideWeight="0.50236964" side_tool="true" weight="0.24959612" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44017094" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.44017094" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -916,13 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/Tool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/sa-jdi.jar!/sun/jvm/hotspot/oops/Mark.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -968,13 +952,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/Magic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/Restore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -992,10 +969,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/Tool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/Magic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/MagicType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="254">
+          <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1004,8 +995,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/line/LineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        <state relative-caret-position="247">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

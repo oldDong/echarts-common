@@ -28,7 +28,7 @@ public class LineTest {
         option.toolbox().show(true).feature(
                 Tool.mark,
                 Tool.dataView,
-                new MagicType(Magic.line, Magic.bar),
+                new MagicType(Magic.line, Magic.bar, Magic.pie),
                 Tool.restore,
                 Tool.saveAsImage
         );
