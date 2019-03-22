@@ -2,7 +2,10 @@ package com.shinemo.bi.echarts.samples.bar;
 
 import com.shinemo.bi.echarts.axis.CategoryAxis;
 import com.shinemo.bi.echarts.axis.ValueAxis;
+import com.shinemo.bi.echarts.code.Magic;
+import com.shinemo.bi.echarts.code.Tool;
 import com.shinemo.bi.echarts.code.Trigger;
+import com.shinemo.bi.echarts.feature.MagicType;
 import com.shinemo.bi.echarts.json.GsonUtil;
 import com.shinemo.bi.echarts.series.Bar;
 import com.shinemo.bi.echarts.util.EnhancedOption;
@@ -21,6 +24,14 @@ public class BarTest {
         EnhancedOption option = new EnhancedOption();
         option.title("运营商用户");
         option.tooltip().trigger(Trigger.axis);
+        option.legend("移动","联通","电信");
+        option.toolbox().show(true).feature(
+                Tool.mark,
+                Tool.dataView,
+                new MagicType(Magic.line, Magic.bar).show(true),
+                Tool.restore,
+                Tool.saveAsImage
+        );
         option.xAxis(new CategoryAxis().data("移动","联通","电信"));
         option.yAxis(new ValueAxis());
 
