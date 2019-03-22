@@ -33,6 +33,10 @@ public class Option implements Serializable {
      */
     private Tooltip tooltip;
 
+    /**
+     * 图例（详见legend），每个图表最多仅有一个图例，混搭图表共享
+     */
+    private Legend legend;
 
     /**
      * 直角坐标系中横轴数组（详见xAxis），数组中每一项代表一条横轴坐标轴，标准（1.0）中规定最多同时存在2条横轴
@@ -94,6 +98,16 @@ public class Option implements Serializable {
      */
     public Option tooltip(Tooltip tooltip) {
         this.tooltip = tooltip;
+        return this;
+    }
+
+    /**
+     * 设置legend值
+     *
+     * @param legend
+     */
+    public Option legend(Legend legend) {
+        this.legend = legend;
         return this;
     }
 
@@ -175,6 +189,27 @@ public class Option implements Serializable {
             this.tooltip = new Tooltip();
         }
         return this.tooltip;
+    }
+
+    /**
+     * 图例（详见legend），每个图表最多仅有一个图例，混搭图表共享
+     */
+    public Legend legend() {
+        if (this.legend == null) {
+            this.legend = new Legend();
+        }
+        return this.legend;
+    }
+
+    /**
+     * 添加图例（详见legend），每个图表最多仅有一个图例，混搭图表共享
+     *
+     * @param values
+     * @return
+     */
+    public Option legend(Object... values) {
+        this.legend().data(values);
+        return this;
     }
 
     /**

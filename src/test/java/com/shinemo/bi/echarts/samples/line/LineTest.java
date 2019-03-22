@@ -20,6 +20,7 @@ public class LineTest {
     public void test() {
         EnhancedOption option = new EnhancedOption();
         option.title("模板中心趋势");
+        option.legend("PV","UV");
         option.tooltip().trigger(Trigger.axis);
         option.xAxis(new CategoryAxis().data("03-14","03-15","03-16"));
         option.yAxis(new ValueAxis());

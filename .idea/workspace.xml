@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b22906-3490-45eb-a937-adf6fc74f992" name="Default" comment="" />
+    <list default="true" id="65b22906-3490-45eb-a937-adf6fc74f992" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Legend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Toolbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/LegendType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/Orient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/SelectedMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/DataView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/Feature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Option.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/line/LineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/line/LineTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +35,8 @@
       <file leaf-file-name="Option.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Option.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="170" column="34" lean-forward="true" selection-start-line="170" selection-start-column="34" selection-end-line="170" selection-end-column="34" />
+            <state relative-caret-position="-960">
+              <caret line="202" selection-start-line="202" selection-end-line="202" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PieTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/pie/PieTest.java">
+      <file leaf-file-name="Legend.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Legend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="417">
+              <caret line="137" column="22" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,32 +59,11 @@
       <file leaf-file-name="LineTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/line/LineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="298">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BarTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/bar/BarTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tooltip.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Tooltip.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -84,8 +74,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,7 +83,11 @@
     <findStrings>
       <find>##option##</find>
       <find>tool</find>
+      <find>tooltip</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -141,11 +135,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/json/GsonOption.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/json/OptionUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/util/EnhancedOption.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Option.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/pie/PieTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/Trigger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Tooltip.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/pie/PieTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/bar/BarTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/Feature.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/DataView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Toolbox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/LegendType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/Orient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/SelectedMode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Legend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Option.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/line/LineTest.java" />
       </list>
     </option>
@@ -185,10 +186,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -242,50 +244,10 @@
               <item name="echarts-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="echarts-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="echarts-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="echarts-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="echarts-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="echarts-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="echarts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="echarts-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="echarts-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts" type="462c0819:PsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="echarts-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="echarts-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts" type="462c0819:PsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-              <item name="pie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="echarts-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="echarts-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -444,8 +406,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LineTest.test" />
-        <item itemvalue="JUnit.BarTest.test" />
         <item itemvalue="JUnit.PieTest.test" />
+        <item itemvalue="JUnit.BarTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -462,26 +424,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553137434958</updated>
-      <workItem from="1553137439008" duration="14155000" />
+      <workItem from="1553137439008" duration="18314000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LineTest_test - 2019.03.21 at 17h 02m 30s.xml">
-      <configuration name="LineTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LineTest_test - 2019.03.21 at 17h 05m 28s.xml">
-      <configuration name="LineTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LineTest_test - 2019.03.21 at 17h 06m 00s.xml">
-      <configuration name="LineTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BarTest_test - 2019.03.21 at 17h 12m 43s.xml">
-      <configuration name="BarTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieTest_test - 2019.03.21 at 17h 18m 14s.xml">
-      <configuration name="PieTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PieTest_test - 2019.03.21 at 17h 19m 42s.xml">
       <configuration name="PieTest.test" configurationId="JUnit" />
     </history-entry>
@@ -497,12 +444,27 @@
     <history-entry file="LineTest_test - 2019.03.21 at 17h 36m 24s.xml">
       <configuration name="LineTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LineTest_test - 2019.03.21 at 17h 37m 48s.xml">
+      <configuration name="LineTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineTest_test - 2019.03.21 at 17h 38m 09s.xml">
+      <configuration name="LineTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PieTest_test - 2019.03.21 at 17h 50m 05s.xml">
+      <configuration name="PieTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineTest_test - 2019.03.22 at 09h 32m 52s.xml">
+      <configuration name="LineTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineTest_test - 2019.03.22 at 10h 00m 10s.xml">
+      <configuration name="LineTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14155000" />
+    <option name="totallyTimeSpent" value="18314000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" />
@@ -511,11 +473,11 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Terminal" weight="0.32905984" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49763033" weight="0.24959612" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" sideWeight="0.50236964" side_tool="true" weight="0.24959612" />
@@ -529,6 +491,32 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32905984" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49763033" visible="true" weight="0.24959612" />
+      <window_info id="Structure" order="3" sideWeight="0.50236964" side_tool="true" weight="0.24959612" />
+      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.44017094" />
+      <window_info anchor="right" id="Maven Projects" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Messages" order="5" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32956383" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -879,26 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Option.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="170" column="34" lean-forward="true" selection-start-line="170" selection-start-column="34" selection-end-line="170" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/pie/PieTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/Trigger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -906,17 +874,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Tooltip.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/pie/PieTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        <state relative-caret-position="527">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/bar/BarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="374">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Tooltip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/Feature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/feature/DataView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Toolbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/Orient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/LegendType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/code/SelectedMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Option.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-960">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinemo/bi/echarts/Legend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="137" column="22" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -925,8 +965,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/shinemo/bi/echarts/samples/line/LineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="298">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
