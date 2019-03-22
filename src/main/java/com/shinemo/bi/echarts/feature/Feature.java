@@ -13,6 +13,31 @@ public class Feature implements Serializable {
     private static final long serialVersionUID = -5882296206126655015L;
 
     /**
+     * 获取DataView值
+     */
+    public static final DataView dataView = new DataView();
+
+    /**
+     * 获取MagicType值
+     */
+    public static final MagicType magicType = new MagicType();
+
+    /**
+     * 获取Mark值
+     */
+    public static final Mark mark = new Mark();
+
+    /**
+     * 获取SaveAsImage值
+     */
+    public static final SaveAsImage saveAsImage = new SaveAsImage();
+
+    /**
+     * 获取Restore值
+     */
+    public static final Restore restore = new Restore();
+
+    /**
      * 是否显示
      */
     private Boolean show;

@@ -9,5 +9,5 @@ package com.shinemo.bi.echarts.code;
  * Time: 11:24
  */
 public enum SeriesType {
-    line, bar, pie,
+    line, bar, pie, funnel
 }

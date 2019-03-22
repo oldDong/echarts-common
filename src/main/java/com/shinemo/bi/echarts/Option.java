@@ -29,6 +29,11 @@ public class Option implements Serializable {
     private Title title;
 
     /**
+     * 工具箱（详见toolbox），每个图表最多仅有一个工具箱
+     */
+    private Toolbox toolbox;
+
+    /**
      * 提示框（详见tooltip），鼠标悬浮交互时的信息提示
      */
     private Tooltip tooltip;
@@ -88,6 +93,16 @@ public class Option implements Serializable {
      */
     public Option title(String text, String subtext) {
         this.title().text(text).subtext(subtext);
+        return this;
+    }
+
+    /**
+     * 设置toolbox值
+     *
+     * @param toolbox
+     */
+    public Option toolbox(Toolbox toolbox) {
+        this.toolbox = toolbox;
         return this;
     }
 
@@ -179,6 +194,16 @@ public class Option implements Serializable {
             this.title = new Title();
         }
         return this.title;
+    }
+
+    /**
+     * 工具箱（详见toolbox），每个图表最多仅有一个工具箱
+     */
+    public Toolbox toolbox() {
+        if (this.toolbox == null) {
+            this.toolbox = new Toolbox();
+        }
+        return this.toolbox;
     }
 
     /**
